@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: calibri;
+}
+
+body{
+    background: rgb(139, 137, 137);
+}
+
+.head-h1{
+    font-size: 3em;
+    text-align: center;
+    margin: 40px 0px 50px 0px;
+}
+
+.section{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.art-div{
+    margin: 12px;
+    background-color: rgb(99, 91, 91);
+    border: 2px solid black;
+    font-size: 22px;
+    width: 30%;
+    color: white;
+}
+
+.art-p{
+    padding: 8px;
+}
+
+.box{
+    float: right;
+    padding: 8px;
+    color: white;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+}
+
+.box p{
+    padding: 0px 12px 0px 12px;
+}
+
+#box-1{
+    background: rgb(173, 60, 60);
+}
+
+#box-2{
+    background: rgb(50, 50, 162);
+}
+
+#box-3{
+    background: rgb(162, 162, 43);
+}
+
+@media (max-width:991px){
+    #art-div1, #art-div2{
+        width: 45%;
+    }
+    #art-div3{
+        width: 93%;
+    }
+}
+
+@media (max-width:768px){
+    #art-div1, #art-div2, #art-div3{
+        width: 95%;
+    }
+}
+
+.footer{
+    display: block;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: blueviolet;
+    width: 100%;
+}
+
+.foot-a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    display: block;
+    text-align: center;
+    margin: 12px;
+    transition: .4s ease;
+}
+
+.foot-a:hover{
+    color: rgb(223, 122, 122);
+}
